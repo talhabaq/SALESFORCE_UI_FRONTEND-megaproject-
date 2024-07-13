@@ -1,0 +1,213 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    height: 15%; /* 10vh (screen size) view port height */
+     width: 100%;/*view port does not depend on parent */
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 300;
+    background-color: white;
+}
+.text{
+    color:rgb(2, 2, 19);
+    display: flex;
+}
+.text:hover{
+    color:rgb(41, 155, 200);
+}
+#contact{
+    align-items: center;
+    text-align: center;
+}
+#logo{
+    height: 70%;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#fakeheader{
+    height: 15%; /* fake haeder is used to prevent page 1 oveeride on header*/
+     width: 100%;
+}
+
+.icon{
+    padding: 10px;
+    border-radius: 50%;
+}
+.icon:hover{
+    background-color: rgb(176, 223, 223);
+}
+#login{
+    padding: 10px;
+    border-radius: 50px;
+    display:flex;
+}
+#login:hover{
+    background-color: rgb(176, 223, 223);
+}
+#try{
+    background-color: green;
+    padding: 20px 30px;
+    color: white;
+}
+#try:hover{
+    background-color: lightgreen;
+    border-radius: 30px;
+    color: darkblue;
+}
+#page1{
+    height: 85%;
+    width: 100%;
+    background-color: wheat;
+}
+#strip{
+    width: 100%;
+    height: 8%;
+    background-color: rgba(6, 6, 84, 0.788);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: larger;
+    font-weight: 400;
+}
+#content{
+    width: 100%;
+    height: 76%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#box1{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    padding: 30px;
+}
+#box1 h1{
+    font-weight: 600;
+    color: rgba(6, 6, 84, 0.788);
+    font-size: 60px;
+    margin: 10px;
+}
+#box1 p{
+    font-weight:xx-large;
+    color: rgba(6, 6, 84, 0.788);
+    margin: 10px;
+    font-size: large;
+}
+#box2{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    padding: 30px;
+    background-image: url("https://wp.salesforce.com/en-ap/wp-content/uploads/sites/14/2024/02/php-marquee-starter-lg-bg.jpg?resize=2048,640");
+    background-size: cover;
+  background-position: center;
+}
+#video1 {
+    height: 350px;
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 20px;
+    display: block;
+  }
+#buttons{
+    display: flex;
+}
+#bt1{
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px 30px;
+    color: white;
+    background-color: rgb(41, 155, 200);
+}
+#bt1:hover{
+    background-color: rgb(26, 112, 112);
+}
+#bt2{
+
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px 30px;
+    color: rgb(5, 70, 70);
+    border: 2px solid aqua;
+    margin-left: 10px;
+}
+#bt2:hover{
+    background-color: lightblue;
+    color: white;
+}
+#tagline {
+    width: 100%;
+    height: 16%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(2, 2, 19);
+    background-color: white;
+    font-weight: 300;
+    font-size: xx-large;
+}
+#page2{
+    height: 85%;
+    width: 100%;
+}
+#block1{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.b{
+    object-fit: cover;
+    margin:10px 20px;
+    margin-bottom: 100px;
+    height: 400px;
+    width: 250px;
+    background-color: white;
+    border: 3px solid ;
+    border-radius: 10px;
+    border-color: aliceblue;   
+    overflow:hidden;
+}
+.b img{
+    height: 35%;
+    width:100%;
+}
+.b h2{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+.b p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: normal;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#readmore{
+    display: grid;
+    text-align: center;
+}
+#readmore:hover{
+    color: aqua;
+}
